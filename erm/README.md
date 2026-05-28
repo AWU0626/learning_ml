@@ -2,9 +2,9 @@
 
 In machine learning, we task the machine (the learner) with making a correct prediction on any unseen datum. The process of machine learning, as the name suggests, is to design a way for the machine to learn and predict results better.
 
-The process revolves around a dataset $\mathcal{D}$, consisting of datapoints $d$. Each datapoint contains a set of features $x$ and a label $y$ that we want to predict. We then use a subset of $S\subseteq \mathcal{D}$, the training data, for our learner to learn from, and evaluate its performance on a different subset of $T\subseteq \mathcal{D}$, the testing data.
+The process revolves around a dataset $\mathcal{D}$, consisting of datapoints $d$. Each datapoint contains a set of features $x$ and a label $y$ that we want to predict. We then use a subset of $S\subseteq \mathcal{D}$, the training data, for our learner to learn from, and evaluate its performance.
 
-Empirical Risk Minimization (ERM), in the context of learning, is the paradigm that focuses on reducing the prediction error that our learner has after being trained on the training data.
+Empirical Risk Minimization (ERM), in the context of learning, is the paradigm that focuses on reducing the prediction error that our learner has after being trained on the training data, i.e. minimizing training error.
 
 In essence, we want our learner to adapt some hypothesis in a set of all hypotheses $h\in \mathcal{H}$, (a model amongst the set of all learning models) that would reduce the prediction error of our learner.
 
