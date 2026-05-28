@@ -6,4 +6,6 @@ The process revolves around a dataset $D$, consisting of datapoints $d$. Each da
 
 Empirical Risk Minimization (ERM), in the context of learning, is the paradigm that focuses on reducing the prediction error that our learner has after being trained on the training data.
 
+
+
 For a more detailed overview, see Chapter 2 of *Understanding Machine Learning: From Theory to Algorithms* ([free PDF](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html)).
